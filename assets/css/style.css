@@ -49,7 +49,6 @@ body {padding: 0;margin: 0;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, san
 #ads-penawaran img {width: 100%;margin-bottom: 25px}
 #ads-penawaran p {padding: 0 20px;margin-bottom: 25px}
 #ads-penawaran h6 {font-size: 1.2em;text-align: center}
-#ads-penawaran last-childh6: {font-size: 2em;text-align: center}
 #ads-penawaran del {font-size: 1em;font-style: italic}
 #ads-penawaran .harga {font-size: 3em;font-family: ff-cocon-pro, sans-serif;margin-bottom: 2em;animation: harga 3s ease;animation-iteration-count: infinite;color: #c1176c}
 
