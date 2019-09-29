@@ -21,7 +21,7 @@ body {padding: 0;margin: 0;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, san
 #ads-product {position: relative;text-align: center;padding: 40px 20px}
 #ads-product img {width: 100%;}
 #ads-product p {text-align: left;font-size: 18px;margin-bottom: 4em}
-#ads-product h3 {font-family: ff-cocon-pro, sans-serif;font-size: 2.5em;color: #17c16c}
+#ads-product h3 {font-family: ff-cocon-pro, sans-serif;font-size: 2em;color: #17c16c}
 
 #ads-menitan {position: relative;margin: 50px 0 100px;text-align: center}
 #ads-menitan img {width: 100%}
