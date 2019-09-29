@@ -21,7 +21,7 @@ body {padding: 0;margin: 0;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, san
 #ads-product {position: relative;text-align: center;padding: 40px 20px}
 #ads-product img {width: 100%;}
 #ads-product p {text-align: left;font-size: 18px;margin-bottom: 4em}
-#ads-product h3 {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size: 2.5em;color: #17c16c}
+#ads-product h3 {font-family: ff-cocon-pro, sans-serif;font-size: 2.5em;color: #17c16c}
 
 #ads-menitan {position: relative;margin: 50px 0 100px;text-align: center}
 #ads-menitan img {width: 100%}
@@ -29,7 +29,7 @@ body {padding: 0;margin: 0;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, san
 #ads-testimoni {position: relative;}
 #ads-testimoni img {width: 100%}
 .copy-content {padding: 25px 20px}
-#ads-testimoni h3 {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;padding: 20px 40px;text-align: center;font-size: 2.2em;color: #c1176c}
+#ads-testimoni h3 {font-family: ff-cocon-pro, sans-serif;padding: 20px 40px;text-align: center;font-size: 2.2em;color: #c1176c}
 
 #ads-product-2 {position: relative;}
 #ads-product-2 img {width: 100%;margin: 50px 0 25px}
@@ -40,7 +40,7 @@ body {padding: 0;margin: 0;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, san
 #ads-product-2 p {text-align: left;padding: 10px 40px;font-size: 18px;line-height: 1.6em}
 
 .ads-section {position: relative;padding: 20px 0}
-.ads-section h5 {text-align: center;font-size: 2.5em;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: #c1176c}
+.ads-section h5 {text-align: center;font-size: 2.5em;font-family: ff-cocon-pro, sans-serif;color: #c1176c}
 .ads-section ul {list-style: none;position: relative;margin: 0 20px}
 .ads-section ul li {margin-bottom: 15px;line-height: 1.6em;font-size: 20px}
 .ads-section ul li::before {content: '✓';position: absolute;left: 10px;font-weight: bold;color: #c1176c}
@@ -51,7 +51,7 @@ body {padding: 0;margin: 0;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, san
 #ads-penawaran h6 {font-size: 1.2em;text-align: center}
 #ads-penawaran last-childh6: {font-size: 2em;text-align: center}
 #ads-penawaran del {font-size: 1em;font-style: italic}
-#ads-penawaran .harga {font-size: 3em;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;margin-bottom: 2em;animation: harga 3s ease;animation-iteration-count: infinite;color: #c1176c}
+#ads-penawaran .harga {font-size: 3em;font-family: ff-cocon-pro, sans-serif;margin-bottom: 2em;animation: harga 3s ease;animation-iteration-count: infinite;color: #c1176c}
 
 #ads-mukadima {padding: 40px 20px }
 #ads-mukadima h4 {font-size: 1.6em;line-height: 1.6em;margin-bottom: 1em}
