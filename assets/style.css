@@ -11,6 +11,8 @@ body {padding: 0;margin: 0;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, san
 #head h1 {font-size: 2em;font-family: ff-cocon-pro, sans-serif;}
 #head p {font-size: 1.3em;line-height: 1.6em}
 
+.clear {clear: both}
+
 #ads-wrapper {padding: 40px 20px}
 #ads-wrapper ul {list-style: none;position: relative;}
 #ads-wrapper ul li {margin-bottom: 15px;line-height: 1.6em;font-size: 20px}
