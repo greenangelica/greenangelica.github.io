@@ -8,8 +8,13 @@ body {padding: 0;margin: 0;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, san
 .pemecah-tali-silaturahmi {border: 0;border-bottom: 1px solid #ccc;margin: 50px 0}
 
 #head {position: relative;text-align: center;padding: 75px 20px;background-image:linear-gradient(#fffa,#fffa), url('https://greenangelica.github.io/assets/img/sampul.jpg');background-size: cover;background-position: center;background-blend-mode: overlay}
-#head h1 {font-size: 2em;font-family: ff-cocon-pro, sans-serif;}
+#head h1 {font-size: 2em;font-family: ff-cocon-pro, sans-serif;color: #c1176c}
 #head p {font-size: 1.3em;line-height: 1.6em}
+.box-wrapper {border: 1px solid #c1176c;padding: 15px;margin-bottom: 25px;background-color: rgba(255, 255, 255, 0.75)}
+
+:root {
+    --dhuns-font: ff-cocon-pro, sans-serif;
+}
 
 .clear {clear: both}
 
@@ -19,30 +24,40 @@ body {padding: 0;margin: 0;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, san
 #ads-wrapper ul li::before {content: '✓';position: absolute;left: 10px;font-weight: bold;color: #c1176c}
 #ads-wrapper img {width: 100%}
 #ads-wrapper h2 {font-size: 1.5em;text-align: center;color: #c1176c;margin: 40px 20px}
+#ads-wrapper h3 {font-size: 1em;text-align: center}
 
 #ads-product {position: relative;text-align: center;padding: 40px 20px}
 #ads-product img {width: 100%;}
-#ads-product p {text-align: left;font-size: 18px;margin-bottom: 4em}
-#ads-product h3 {font-family: ff-cocon-pro, sans-serif;font-size: 2em;color: #17c16c}
+#ads-product p {text-align: left;font-size: 18px;margin:1em 0 2em}
+#ads-product h3 {font-family: var(--dhuns-font);font-size: 2em;color: #17c16c}
+#ads-product h6 {font-size: 1.4em;color: #c1176c;font-family: var(--dhuns-font);}
+#ads-product ul {text-align: left;list-style: none;position: relative;margin: 0}
+#ads-product ul li {margin-bottom: 1em}
+#ads-product ul li h5 {font-size: 1.5em;color: #c1176c;}
+#ads-product ul li::before {content: '✓';position: absolute;left: 10px;font-weight: bold;color: #c1176c}
 
 #ads-menitan {position: relative;margin: 50px 0 100px;text-align: center}
 #ads-menitan img {width: 100%}
+#ads-menitan h5 {font-size: 2em;margin-bottom: 1em;font-family: var(--dhuns-font);color: #c1176c}
+#ads-menitan h3 {font-family: var(--dhuns-font);color: #c1176c}
+#ads-menitan ol {text-align: left}
+#ads-menitan ol li {margin-bottom: 1em;font-size: 1.1em}
 
 #ads-testimoni {position: relative;}
 #ads-testimoni img {width: 100%}
 .copy-content {padding: 25px 20px}
-#ads-testimoni h3 {font-family: ff-cocon-pro, sans-serif;padding: 20px 40px;text-align: center;font-size: 2.2em;color: #c1176c}
+#ads-testimoni h3 {font-family: var(--dhuns-font);padding: 20px 40px;text-align: center;font-size: 2em;color: #c1176c}
 
 #ads-product-2 {position: relative;}
 #ads-product-2 img {width: 100%;margin: 50px 0 25px}
 #ads-product-2 ul {list-style: none;position: relative;margin: 0 20px}
 #ads-product-2 ul li {margin-bottom: 15px;line-height: 1.6em;font-size: 20px}
 #ads-product-2 ul li::before {content: '✓';position: absolute;left: 10px;font-weight: bold;color: #c1176c}
-#ads-product-2 h4 {font-weight: bold;font-size: 2em}
+#ads-product-2 h4 {font-weight: bold;font-size: 2em;font-family: var(--dhuns-font)}
 #ads-product-2 p {text-align: left;padding: 10px 40px;font-size: 18px;line-height: 1.6em}
 
 .ads-section {position: relative;padding: 20px 0}
-.ads-section h5 {text-align: center;font-size: 2.5em;font-family: ff-cocon-pro, sans-serif;color: #c1176c}
+.ads-section h5 {text-align: center;font-size: 2.5em;font-family: var(--dhuns-font);color: #c1176c}
 .ads-section ul {list-style: none;position: relative;margin: 0 20px}
 .ads-section ul li {margin-bottom: 15px;line-height: 1.6em;font-size: 20px}
 .ads-section ul li::before {content: '✓';position: absolute;left: 10px;font-weight: bold;color: #c1176c}
@@ -50,15 +65,18 @@ body {padding: 0;margin: 0;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, san
 #ads-penawaran {position: relative}
 #ads-penawaran img {width: 100%;margin-bottom: 25px}
 #ads-penawaran p {padding: 0 20px;margin-bottom: 25px}
-#ads-penawaran h6 {font-size: 1.2em;text-align: center}
-#ads-penawaran del {font-size: 1em;font-style: italic}
-#ads-penawaran .harga {font-size: 3em;font-family: ff-cocon-pro, sans-serif;margin-bottom: 2em;animation: harga 3s ease;animation-iteration-count: infinite;color: #c1176c}
+#ads-penawaran h6 {font-size: 1.5em;text-align: center}
+#ads-penawaran del {font-size: 1.4em;font-style: italic}
+#ads-penawaran .harga {font-size: 3em;font-family: var(--dhuns-font);margin-bottom: 1em;animation: harga 3s ease;animation-iteration-count: infinite;color: #c1176c}
+.counter-wrapper {border: 1px solid #c1176c;margin: 0 20px 50px;padding: 2.5px}
+.counter-sisa {width: 20%;background-color: #c1176c;color: #fff;padding: 5px}
+.bonus {font-size: 1.2em !important;}
 
 #ads-mukadima {padding: 40px 20px }
 #ads-mukadima h4 {font-size: 1.6em;line-height: 1.6em;margin-bottom: 1em}
 #ads-mukadima h3 {font-size: 3em}
 
-#melayang-wrapper {position: fixed;bottom: 0;width: 100%;text-align: center;background-color: rgba(255, 255, 255, 0.75);padding: 20px}
+#melayang-wrapper {position: fixed;bottom: 0;width: 100%;text-align: center;background-color: rgba(255, 255, 255, 0.5);padding: 20px;backdrop-filter: blur(10px);border-top: 1px solid #fff}
 #melayang-wrapper .button-beli {width: 100%;margin: 0}
 
 .looooos {height: 200px;}
