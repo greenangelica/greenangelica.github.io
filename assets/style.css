@@ -76,7 +76,7 @@ body {padding: 0;margin: 0;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, san
 #ads-mukadima h4 {font-size: 1.6em;line-height: 1.6em;margin-bottom: 1em}
 #ads-mukadima h3 {font-size: 3em}
 
-#melayang-wrapper {position: fixed;bottom: 0;width: 100%;text-align: center;background-color: rgba(255, 255, 255, 0.5);padding: 20px;backdrop-filter: blur(10px);border-top: 1px solid #fff}
+#melayang-wrapper {position: fixed;bottom: 0;width: 100%;text-align: center;background-color: rgba(255, 255, 255, 0.5);padding: 20px;backdrop-filter: blur(10px);-webkit-backdrop-filter: blur(10px);border-top: 1px solid #fff}
 #melayang-wrapper .button-beli {width: 100%;margin: 0}
 
 .looooos {height: 200px;}
