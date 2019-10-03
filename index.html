@@ -124,7 +124,21 @@
             <li>Setelah Bulu mengeriting segeralah usap bulu secara lembut menggunakan kapas dan handuk.</li>
             <li>Basuh dengan air sabun atau air dingin dan dapatkan Kulit mulus bebas Bulu.</li>
         </ol>
-        <iframe style="width: 100%;height: 250px;" src="https://www.youtube.com/embed/NRRKFu9g16k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="yutub" id="yutub">
+            <img src="assets/img/youtub.jpg" alt="yutub" onclick="videoYutub()" >
+        </div>
+        <div id="video">
+            <iframe id="video-dalam" style="width: 100%;height: 250px;display: none" src="https://www.youtube.com/embed/NRRKFu9g16k?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <script>
+            function videoYutub() {
+                var ori = document.getElementById('video-dalam');
+                ori.style.display = "block";
+                var thumb = document.getElementById('yutub');
+                thumb.style.display = "none";
+            }
+        </script>
+        <br><br>
         <a href="http://bit.ly/Beli-Hair-Removal-BTN-3" class="button-beli">Dapatkan Sekarang Juga</a>
     </section>
     <section id="ads-testimoni">
